@@ -7,13 +7,9 @@ GET http://localhost:3000/messages
 POST  http://localhost:3000/messages
 content-type: application/json
 
-```json
 {
-  "message": {
-    "text": "Hello World"
-  }
+  "content": "Hello World"
 }
-```
 
 ### Get a Message
 GET http://localhost:3000/messages/2
